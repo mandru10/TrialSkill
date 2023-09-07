@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.article-image {
+  @apply object-cover w-full h-full p-2 transition duration-300 ease-in-out rounded-full hover:scale-105;
+}
